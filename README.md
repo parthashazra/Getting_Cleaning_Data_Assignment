@@ -69,4 +69,4 @@ Creating the data set in following steps
 8. Write text file for second independent tidy data set
 
 
-2nd_tidy_data.txt in this repository was created by running the run_analysis.
+2nd_tidy_data.txt in this repository was created by running the run_analysis.R.
