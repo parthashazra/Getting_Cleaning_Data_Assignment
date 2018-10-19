@@ -85,4 +85,4 @@ The following transformations were applied to the source data:
 5. From the data set in step 4, the final data set (*Second_Tidy_Data*) was created with the mean of each variable grouped by each activity and each subject.
 6. Final data set (*Second_Tidy_Data*) was wrote in *2nd_tidy_data.txt* - Please check the file in the repository.
 
-*End of CODEBOOK*
+#*End of CODEBOOK*
