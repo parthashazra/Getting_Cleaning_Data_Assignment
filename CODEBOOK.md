@@ -75,12 +75,12 @@ Source data is extracted from https://d396qusza40orc.cloudfront.net/getdata%2Fpr
 
 The following transformations were applied to the source data:
 
-1 - Training &  Test data sets were merged to create one data set - *merged_Data*
-2 - Columns related to mean and standard deviation were extracted for each measurement, and the others were discarded.
-3 - Activity identifiers (an integer between 1 and 6 which is stored in column 'Activity ID') were replaced with descriptive activity names see in *Identifiers* section.
-4 - The variable (column from column index #3 to #81) names were replaced with descriptive variable names using the following set of rules:
+- 1. Training &  Test data sets were merged to create one data set - *merged_Data*
+- 2. Columns related to mean and standard deviation were extracted for each measurement, and the others were discarded.
+- 3. Activity identifiers (an integer between 1 and 6 which is stored in column 'Activity ID') were replaced with descriptive activity names see in *Identifiers* section.
+- 4. The variable (column from column index #3 to #81) names were replaced with descriptive variable names using the following set of rules:
 	- Special characters `(`, `)`, and `-` were removed
 	- The initial `f` and `t` were expanded to `frequencyDomain` and `timeDomain` respectively.
 	- `Acc`, `Gyro`, `Mag`, `Freq`, `mean`, and `std` were replaced with `Accelerometer`, `Gyroscope`, `Magnitude`, `Frequency`, `Mean`, and `StandardDeviation` respectively.
-5 - From the data set in step 4, the final data set (*Second_Tidy_Data*) was created with the mean of each variable grouped by each activity and each subject.
-6 - Final data set (*Second_Tidy_Data*) was wrote in *2nd_tidy_data.txt* - Please check the file in the repository.
+- 5. From the data set in step 4, the final data set (*Second_Tidy_Data*) was created with the mean of each variable grouped by each activity and each subject.
+- 6. Final data set (*Second_Tidy_Data*) was wrote in *2nd_tidy_data.txt* - Please check the file in the repository.
